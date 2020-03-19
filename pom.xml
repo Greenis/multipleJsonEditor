@@ -14,32 +14,6 @@
 		<jackson.version>2.7.5</jackson.version>
 	</properties>
 
-	<repositories>
-		<repository>
-			<id>Atlassian_proxy</id>
-			<name>Atlassian_proxy</name>
-			<url>http://sbtnexus.ca.sbrf.ru:8081/nexus/content/repositories/Atlassian_proxy/</url>
-		</repository>
-	</repositories>
-	
-	<pluginRepositories>
-		<pluginRepository>
-			<id>Atlassian_proxy</id>
-			<name>Atlassian_proxy</name>
-			<url>http://sbtnexus.ca.sbrf.ru:8081/nexus/content/repositories/Atlassian_proxy/</url>
-		</pluginRepository>
-		<pluginRepository>
-			<id>central external</id>
-			<name>central external</name>
-			<url>http://sbtnexus.ca.sbrf.ru:8081/nexus/content/repositories/central/</url>
-		</pluginRepository>
-		<pluginRepository>
-			<id>backbase_repo</id>
-			<name>backbase_repo</name>
-			<url>http://sbtnexus.ca.sbrf.ru:8081/nexus/content/repositories/backbase_repo/</url>
-		</pluginRepository>
-	</pluginRepositories>
-
 	<dependencies>
 		<dependency>
 			<groupId>junit</groupId>
