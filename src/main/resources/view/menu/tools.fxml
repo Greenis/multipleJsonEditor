@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+
+<Menu text="Инструменты"
+		xmlns="http://javafx.com/javafx"
+		xmlns:fx="http://javafx.com/fxml"
+		fx:controller="org.me.controller.menu.ToolController"
+		fx:id="root">
+	<MenuItem text="Сгенерировать TypeScript" fx:id="typescript"/>
+	<MenuItem text="Сгенерировать JavaScript" fx:id="javascript"/>
+	<MenuItem text="Сгенерировать Java" fx:id="java"/>
+</Menu>

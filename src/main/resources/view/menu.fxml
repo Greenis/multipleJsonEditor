@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+
+<MenuBar xmlns="http://javafx.com/javafx"
+		xmlns:fx="http://java.sun.com/JSP/Page"
+		fx:controller="org.me.controller.menu.MenuController"
+		fx:id="root">
+	<fx:include source="menu/file.fxml" fx:id="file"/>
+	<fx:include source="menu/command.fxml" fx:id="command"/>
+	<fx:include source="menu/tools.fxml" fx:id="tools"/>
+</MenuBar>

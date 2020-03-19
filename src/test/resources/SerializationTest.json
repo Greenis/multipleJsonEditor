@@ -1,0 +1,9 @@
+{
+	"package": "org.me",
+	"name": "multiple-editor",
+	"version": "0.0.1",
+	"testDataSet": {
+		"key1": "value1",
+		"key2": "value2"
+	}
+}

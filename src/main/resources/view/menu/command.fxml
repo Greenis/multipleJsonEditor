@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+
+<Menu text="Команды"
+		xmlns="http://javafx.com/javafx"
+		xmlns:fx="http://javafx.com/fxml"
+		fx:controller="org.me.controller.menu.CommandController"
+		fx:id="root">
+	<MenuItem text="Добавить колонку" onAction="#addColumn" fx:id="addColumn"/>
+	<MenuItem text="Добавить группу" onAction="#addGroup" accelerator="CTRL+SHIFT+N" fx:id="addGroup"/>
+	<MenuItem text="Добавить слово" onAction="#addNode" accelerator="CTRL+N" fx:id="addWord"/>
+	<MenuItem text="Удалить элемент" onAction="#removeRow" accelerator="CTRL+D" fx:id="delRow"/>
+	<SeparatorMenuItem/>
+	<MenuItem text="Переместить вверх" onAction="#moveUp" fx:id="moveUp"/>
+	<MenuItem text="Переместить вниз" onAction="#moveDown" fx:id="moveDown"/>
+	
+</Menu>

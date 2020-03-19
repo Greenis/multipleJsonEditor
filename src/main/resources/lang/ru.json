@@ -1,0 +1,55 @@
+{
+	"name": "Multiple::Editor",
+	"menu": {
+		"file": {
+			"name": "Файл",
+			"open": "Открыть",
+			"new": "Новый...",
+			"save": "Сохранить",
+			"saveAs": "Сохранить как",
+			"export": {
+				"name": "Экспорт",
+				"asArchive": "Как архив",
+				"asFiles": "Как файлы"
+			},
+			"settings": "Настройки",
+			"exit": "Выход"
+		},
+		"command": {
+			"name": "Команды",
+			"addWord": "Добавить слово",
+			"addGroup": "Добавить группу",
+			"addColumn": "Лобавить файл",
+			"delRow": "Удалить строку",
+			"moveUp": "Переместить вверх",
+			"moveDown": "Переместить вниз"
+		},
+		"tools": {
+			"name": "Инструменты",
+			"generate": {
+				"name": "Сгенерировать",
+				"typescript": "TypeScript",
+				"javascript": "JavaScript",
+				"java": "Java"
+			}
+		}
+	},
+	"editor": {
+		"name": "Редактор",
+		"json": {
+			"name": "JSON",
+			"node": "Узел"
+		}
+	},
+	"window": {
+		"open": {
+			"title": "Открыть проект"
+		},
+		"save": {
+			"title": "Сохранить"
+		},
+		"saveAs": {
+			"title": "Сохранить как..."
+		}
+	}
+}
